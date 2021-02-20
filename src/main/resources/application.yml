@@ -1,0 +1,20 @@
+#server:
+#  port: 8081
+#spring:
+#  application:
+#    name: olive-sentinel-client
+#  cloud:
+#    sentinel:
+#      transport:
+#        dashboard: 127.0.0.1:8080
+#    nacos:
+#      config:
+##        server-addr: ${NACOS-HOST:60.205.168.11}:${NACOS-PORT:8848}
+#        server-addr: ${NACOS-HOST:10.200.120.6}:${NACOS-PORT:8848}
+#        file-extension: yml
+#      discovery:
+##        server-addr: ${NACOS-HOST:60.205.168.11}:${NACOS-PORT:8848}
+#        server-addr: ${NACOS-HOST:10.200.120.6}:${NACOS-PORT:8848}
+#feign:
+#  sentinel:
+#    enabled: true
